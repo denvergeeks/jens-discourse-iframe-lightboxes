@@ -2,6 +2,7 @@ import { apiInitializer } from "discourse/lib/api";
 import loadScript from "discourse/lib/load-script";
 import { iconHTML } from "discourse-common/lib/icon-library";
 import featherlight from "../vendor/featherlight";
+import { next } from "@ember/runloop";
 
 export default apiInitializer("0.8", (api) => {
   try {
